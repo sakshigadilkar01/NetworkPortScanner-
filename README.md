@@ -63,8 +63,8 @@ Ports not in the list are reported as `Unknown`.
 ## Project Structure
 
 ```
-nmap_portscan_gui/
-├── portscanergui.py   # Main application (scanner + GUI)
+NetworkPortScanner/
+├── portscanner.py   # Main application (scanner + GUI)
 └── README.md
 ```
 
