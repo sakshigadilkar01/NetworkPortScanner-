@@ -20,7 +20,7 @@ No third-party packages are required.
 ## Installation
 
 ```bash
-git clone https://github.com/sakshigadilkar01/NetworkPortscanner.git
+git clone https://github.com/sakshigadilkar01/NetworkPortScanner-.git
 cd NetworkPortScanner
 ```
 
