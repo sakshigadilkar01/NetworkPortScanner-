@@ -1,16 +1,14 @@
-# Network Port Scanner GUI
 
-A lightweight TCP port scanner with a graphical user interface built with Python and Tkinter.
+# 🔍 Network Port Scanner GUI
 
-## Features
+A powerful and user-friendly GUI-based Network Port Scanner built using Python and Tkinter. This tool allows users to scan open ports on a target IP address or hostname and identify active services in real-time.
 
-- **Simple 3-field interface** – enter a target host, start port, and end port
-- **Multi-threaded scanning** – up to 500 concurrent threads for fast results
-- **Service identification** – automatically labels well-known ports (FTP, SSH, HTTP, HTTPS, MySQL, RDP, etc.)
-- **Real-time progress** – progress bar and elapsed-time counter update live during a scan
-- **Stop at any time** – cancel a running scan gracefully
-- **Save results** – export discovered open ports to a `.txt` file
-- **Cross-platform** – runs on Windows, macOS, and Linux
+## 🚀 Features
+Scan ports for any IP address or domain
+Real-time progress tracking with progress bar
+Displays open ports with detected services (HTTP, FTP, SSH, etc.)
+Start/Stop scan functionality
+Save scan results to a file
 
 ## Requirements
 
@@ -22,14 +20,14 @@ No third-party packages are required.
 ## Installation
 
 ```bash
-git clone https://github.com/techtrainer20/nmap_portscan_gui.git
-cd nmap_portscan_gui
+git clone https://github.com/sakshigadilkar01/NetworkPortscanner.git
+cd NetworkPortScanner
 ```
 
 ## Usage
 
 ```bash
-python portscanergui.py
+python portscanner.py
 ```
 
 1. Enter the **Target** – an IP address (e.g. `192.168.1.1`) or hostname (e.g. `scanme.nmap.org`).
@@ -64,14 +62,17 @@ Ports not in the list are reported as `Unknown`.
 
 ```
 NetworkPortScanner/
-├── portscanner.py   # Main application (scanner + GUI)
+├── portscanner.py   
 └── README.md
 ```
 
-## Disclaimer
-
-Use this tool only on hosts and networks you own or have explicit permission to scan. Unauthorized port scanning may be illegal in your jurisdiction.
+# ⚠️ Disclaimer
+This tool is intended for educational purposes only.
+Do not scan networks or systems without proper authorization.
 
 ## License
 
 This project is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+# 👩‍💻 Author
+Sakshi Gadilkar
